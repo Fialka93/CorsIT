@@ -1,0 +1,8 @@
+.sidebar {
+    outline: 1px solid #333;
+    height: 200px;
+    background-color: #ccc;
+        display: inline-block;
+        width: 200px;
+        margin-right: 16px;
+}
