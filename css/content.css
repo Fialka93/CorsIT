@@ -1,5 +1,28 @@
 .content {
-    outline: 1px solid #333;
     display: inline-block;
     width: 740px;
+    vertical-align: top;
+}
+
+.article {
+    padding: 8px;
+    display: inline-block;
+    width: 362px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    border-radius: 4px;
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.1);
+}
+.article:nth-child(2n) {
+    margin-right: 0px;
+}
+.article-img {
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+}
+.article-title {
+    text-transform: uppercase;
+    margin-bottom: 8px;
+
 }
