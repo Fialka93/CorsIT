@@ -1,0 +1,11 @@
+.footer {
+    outline: 1px solid #333;
+    height: 100px;
+}
+.footer-lists {
+    outline: 1px solid red;
+}
+.footer-list {
+    display: inline-block;
+}
+

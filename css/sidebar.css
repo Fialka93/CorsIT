@@ -2,7 +2,7 @@
     display: inline-block;
     vertical-align: top;
     width: 200px;
-    height: 200px;
+    /* height: 200px; */
     padding: 8px;
     box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
@@ -10,6 +10,7 @@
 }
 .list {
     list-style: none;
+    margin-bottom: 20px;        
 }
 .list-item {
     border: 1px solid #ccc; 
@@ -30,13 +31,13 @@
 }
 
 .sidebar-icon {
-    outline: 1px solid #333;
+    text-align: center
 }
 
 .icon {
-    display: block;
-    height: 20px;
-    width: 20px;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
 }
 
 .male {
@@ -45,4 +46,8 @@
 
 .female {
     background-image: url(https://image.flaticon.com/icons/svg/145/145852.svg);
+}
+
+.team {
+    background-image: url(https://image.flaticon.com/icons/svg/236/236822.svg);
 }
