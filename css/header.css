@@ -8,14 +8,14 @@
 .logo {
     display: inline-block;
     height: 70px;
-    width: 70px;
+    width: 460px;
     vertical-align: middle;
-    background-image: url(../img/logo.jpg);
+    background-image: url(../img/123.jpg);
     background-size: cover;
 }
 .menu {
     list-style: none;
-    margin-left: 540px;
+    margin-left: 150px;
     display: inline-block;
     font-size: 0;
 }
